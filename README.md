@@ -12,4 +12,9 @@ The dependencies for the progream are in requirements.txt file, following the in
 
 Instructions
 
-The README describes how to run the code in the repository, to train the agent.
+The entire code is in Navigation.ipynb. To execute, run upto cell "In [2]" (under 2. Examine the State and Action Spaces) sequentially, to load and examine the environment. You can explore the environment to see random actions being taken by executing the next cell. Then execute cells "In [13]" for class definition (QNetowrk, DQN Agent, ReplayBuffer classes), and "In [14]" to build the agent. Then there are two options
+(1) To train - Execute trhe next cell, which will train and output the status of training, ending with a plot of the score. This will save the best model in the 'checkpoint.pth' file
+(2) Alternatively, execute the model without training by loading the pretrained weights from the 'checkpoint.pth' file, by running the cell "In [9]" 
+
+Lastly, run the env.close() cell, when finished.
+
