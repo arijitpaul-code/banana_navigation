@@ -14,9 +14,9 @@ Instructions
 
 The entire code is in Navigation.ipynb. To execute, run upto cell "In [2]" (under 2. Examine the State and Action Spaces) sequentially, to load and examine the environment. You can explore the environment to see random actions being taken by executing the next cell. Then execute cells "In [13]" for class definition (QNetowrk, DQN Agent, ReplayBuffer classes), and "In [14]" to build the agent. You can set the following for trying variants of the regular DQN (The setting below is for Dueling DDQN, which gives the best results).
 
-DOUBLE_DQN = True
-PRIORITIZED_EXPERIENCE_REPLAY = False
-DUELING_DQN = True
+DOUBLE_DQN = True;
+PRIORITIZED_EXPERIENCE_REPLAY = False;
+DUELING_DQN = True;
 
 Then there are two options
 (1) To train - Execute the next cell "In [15]", which will train and output the status of training, ending with a plot of the score. This will save the best model in the 'checkpoint.pth' file
